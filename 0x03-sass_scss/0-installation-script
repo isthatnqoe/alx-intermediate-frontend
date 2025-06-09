@@ -1,1 +1,16 @@
-# some place holder code
+# Step 1: Check if Node.js is installed
+node -v
+
+# Step 2: If Node.js is not installed, install it:
+# For Ubuntu/Debian:
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# For macOS (using Homebrew):
+brew install node
+
+# Step 3: Install SASS globally using npm
+npm install -g sass
+
+# Step 4: Verify SASS installation
+sass --version
